@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoApi", "ToDoApi\ToDoApi.csproj", "{C398B96A-DC0F-48CF-8F85-7A8B6C447ED2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDoApi", "ToDoApi\ToDoApi.csproj", "{C398B96A-DC0F-48CF-8F85-7A8B6C447ED2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDo.Model", "ToDo.Model\ToDo.Model.csproj", "{E8A70A8A-558A-4EA0-AD67-5E394D605504}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDo.Model", "ToDo.Model\ToDo.Model.csproj", "{E8A70A8A-558A-4EA0-AD67-5E394D605504}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDo.Service", "ToDo.Service\ToDo.Service.csproj", "{DB246905-C2C0-4AC2-97C5-8FCDFB6F61B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDo.Service", "ToDo.Service\ToDo.Service.csproj", "{DB246905-C2C0-4AC2-97C5-8FCDFB6F61B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDo.Core", "ToDo.Core\ToDo.Core.csproj", "{B569C24E-163E-4E43-BD79-66C387BE381B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDo.Core", "ToDo.Core\ToDo.Core.csproj", "{B569C24E-163E-4E43-BD79-66C387BE381B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDo.Repository", "ToDo.Repository\ToDo.Repository.csproj", "{04B3DE12-91C2-457D-A404-F8D5A33E3E2F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{B569C24E-163E-4E43-BD79-66C387BE381B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B569C24E-163E-4E43-BD79-66C387BE381B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B569C24E-163E-4E43-BD79-66C387BE381B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04B3DE12-91C2-457D-A404-F8D5A33E3E2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04B3DE12-91C2-457D-A404-F8D5A33E3E2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04B3DE12-91C2-457D-A404-F8D5A33E3E2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04B3DE12-91C2-457D-A404-F8D5A33E3E2F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
