@@ -1,6 +1,6 @@
 ﻿namespace ToDoApi.Services
 {
-    public interface IServiceBase
+    public interface IServiceBase<T>
     {
     }
 }
